@@ -18,9 +18,9 @@ on:
         description: 'SSH connection to Actions'
         required: true
         default: 'false'
-
+        
 env:
-  REPO_URL: https://github.com/openwrt/openwrt.git
+  REPO_URL: https://github.com/DHDAXCW/lede-rockchip.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
