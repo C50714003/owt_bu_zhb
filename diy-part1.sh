@@ -25,6 +25,7 @@
 echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
 echo 'https://github.com/linkease/istore.git' >> feeds.conf.default
+echo 'https://github.com/linkease/istore-packages.git' >> feeds.conf.default
 
 git clone https://github.com/linkease/istore.git package/istore
 git clone https://github.com/linkease/openwrt-themedog.git package/openwrt-themedog
