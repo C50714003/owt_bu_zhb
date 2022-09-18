@@ -29,6 +29,6 @@ echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >
 #git clone https://github.com/linkease/istore-packages.git package/istore-packages
 
 
-./scripts/feeds update nas nas_luci
-./scripts/feeds install -a -p nas
-./scripts/feeds install -a -p nas_luci
+./scripts/feeds update -a
+./scripts/feeds install -a
+./scripts/feeds install -a
