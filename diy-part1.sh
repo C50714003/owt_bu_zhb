@@ -17,17 +17,16 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-
-#echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-#echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >> feeds.conf.default
 
 echo >> feeds.conf.default
 echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
 
-git clone https://github.com/linkease/istore.git package/istore
-git clone https://github.com/linkease/openwrt-themedog.git package/openwrt-themedog
-git clone https://github.com/linkease/istore-packages.git package/istore-packages
+#git clone https://github.com/linkease/istore.git package/istore
+#git clone https://github.com/linkease/openwrt-themedog.git package/openwrt-themedog
+#git clone https://github.com/linkease/istore-packages.git package/istore-packages
 
 
 ./scripts/feeds update nas nas_luci
